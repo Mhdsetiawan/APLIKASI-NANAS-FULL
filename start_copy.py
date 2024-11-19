@@ -30,7 +30,7 @@ import cv2
 app = Flask(__name__)
 
 # Load model for prediction
-modelvgg = load_model("CEKlah40.h5")
+modelvgg = load_model("TESLAH40.keras")
 
 
 UPLOAD_FOLDER = 'static/uploads/'
